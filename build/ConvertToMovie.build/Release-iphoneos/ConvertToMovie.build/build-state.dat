@@ -1,734 +1,0 @@
-TConvertToMovie
-v5
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist
-cProcessInfoPlistFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Info.plist ConvertToMovie/ConvertToMovie-Info.plist
-cProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
-c00000000503C83D40000000000000132
-t1346143188
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-c0000000050AFD7830000000000000094
-t1353701251
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-c0000000050AFD7830000000000000096
-t1353701251
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c0000000050AFD786000000000036C800
-t1353701254
-s3590144
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c0000000050AFD787000000000049C700
-t1353701255
-s4835072
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000050AFD7870000000000322740
-t1353701255
-s3286848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c0000000050AFD78700000000001692A0
-t1353701255
-s1479328
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c0000000050AFD7880000000000041310
-t1353701256
-s267024
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000050AFD78A0000000000629C80
-t1353701258
-s6462592
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c0000000050AFD78800000000000015F7
-t1353701256
-s5623
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c0000000050AFD78A000000000056CC90
-t1353701258
-s5688464
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c0000000050AFD78B0000000000000E8D
-t1353701259
-s3725
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000050AFD79000000000011BA850
-t1353701264
-s18589776
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
-c0000000050AFD79A0000000000001B54
-t1353701274
-s6996
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.h
-c0000000050BD3C3B0000000000000183
-t1354579003
-s387
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m
-c0000000050BD4D480000000000000919
-t1354583368
-s2329
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch
-c0000000050BD3AC5000000000000014B
-t1354578629
-s331
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default-568h@2x.png
-c0000000050748B2300000000000048A2
-t1349815075
-s18594
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default.png
-c0000000050748B23000000000000198C
-t1349815075
-s6540
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default@2x.png
-c0000000050748B230000000000003EEB
-t1349815075
-s16107
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.h
-c0000000050BD5CDD00000000000001A2
-t1354587357
-s418
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m
-c0000000050BDE7E70000000000001DE6
-t1354622951
-s7654
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy00.png
-c00000000506813C40000000000000E55
-t1348998084
-s3669
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy01.png
-c00000000506813C40000000000000F19
-t1348998084
-s3865
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy02.png
-c00000000506813C40000000000001208
-t1348998084
-s4616
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy03.png
-c00000000506813C40000000000001403
-t1348998084
-s5123
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy04.png
-c00000000506813C60000000000000E6D
-t1348998086
-s3693
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy05.png
-c00000000506813C600000000000012F9
-t1348998086
-s4857
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy06.png
-c00000000506813C6000000000000140E
-t1348998086
-s5134
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy07.png
-c00000000506813C60000000000000FB5
-t1348998086
-s4021
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy08.png
-c00000000506813C60000000000001396
-t1348998086
-s5014
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy09.png
-c00000000506813C60000000000001412
-t1348998086
-s5138
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/en.lproj/InfoPlist.strings
-c0000000050BD3AC5000000000000002D
-t1354578629
-s45
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m
-c0000000050BD3AC50000000000000167
-t1354578629
-s359
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent
-t1354609315
-s426
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.o
-t1354609309
-s92080
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie
-t1354609310
-s35248
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie.LinkFileList
-c0000000050BDB29B00000000000001C1
-t1354609307
-s449
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.o
-t2
-s0
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.o
-t1354609309
-s3480
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/AppDelegate.o
-t1354609309
-s92080
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie
-t1354609311
-s35252
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie.LinkFileList
-c0000000050BDB29B00000000000001C4
-t1354609307
-s452
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ViewController.o
-t2
-s0
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/main.o
-t1354609309
-s3480
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app
-t1354621293
-s748
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app.dSYM
-t1354621292
-s102
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie
-t1354621293
-s98544
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default-568h@2x.png
-t1354609312
-s7014
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default.png
-t1354609311
-s3688
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default@2x.png
-t1354609311
-s6316
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Info.plist
-t1354609307
-s1059
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/PkgInfo
-t1354609307
-s8
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist
-t1354609307
-s150
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy00.png
-t1354609312
-s3919
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy01.png
-t1354609312
-s4079
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy02.png
-t1354609312
-s4819
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy03.png
-t1354609312
-s5342
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy04.png
-t1354609312
-s3823
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy05.png
-t1354609312
-s5090
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy06.png
-t1354609312
-s5336
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy07.png
-t1354609313
-s4265
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy08.png
-t1354609313
-s5243
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy09.png
-t1354609315
-s5328
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/embedded.mobileprovision
-t1354609315
-s7450
-
-N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/en.lproj/InfoPlist.strings
-t1354609311
-s42
-
-N/Users/takaaki/Library/MobileDevice/Provisioning Profiles/3A4A68DB-DD89-4E03-8DF8-9A3F4DACC0C4.mobileprovision
-c0000000050B3E4290000000000001D1A
-t1353966633
-s7450
-
-N/var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.pth
-t1354609308
-s4768840
-
-N/var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.pth
-t1354609308
-s4768708
-
-NConvertToMovie/ConvertToMovie-Info.plist
-c0000000050BD3AC50000000000000490
-t1354578629
-s1168
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7b6b8463256eb641^c39a5264256eb641^---0#1#0#--18"Check dependencies36"3F8F8B66-1531-48F3-ADEE-3309CA9C5158-
-
-CCodeSign /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app
-s376314092.659843
-e376314093.246772
-r1
-xCodeSign
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app: replacing existing signature
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign build/Release-iphoneos/ConvertToMovie.app6b2ca9ec186eb641^7e393fed186eb641^-122"/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/0000000000000000^901"CodeSign build/Release-iphoneos/ConvertToMovie.app    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/codesign --force --sign 53be88960ee11e174525ac38a7d1e27798d30277 --resource-rules=/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist --entitlements /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app36"55CFD429-150E-4CC3-BE84-A0270AA905CE-
-
-CCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376302108.900403
-e376302109.572438
-r1
-xCompileC
-xbuild/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.o
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.mf8a9e61cea6db641^dd79921dea6db641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m0000000000000000^3773"CompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.o ConvertToMovie/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/AppDelegate.o36"2FA7CC8E-1B74-42E4-B81F-AF06A06D1DBF-
-
-CCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376317284.375419
-e376317285.475475
-r0
-xCompileC
-xbuild/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.o
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:28:54: error: use of undeclared identifier 'UIButtonTypeRoundeRect'; did you mean 'UIButtonTypeRoundedRect'?
-o    UIButton *movieButton = [UIButton buttonWithType:UIButtonTypeRoundeRect];
-o                                                     ^~~~~~~~~~~~~~~~~~~~~~
-o                                                     UIButtonTypeRoundedRect
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:18:5: note: 'UIButtonTypeRoundedRect' declared here
-o    UIButtonTypeRoundedRect,          // rounded rect, flat white button, like in address card
-o    ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:30:85: error: use of undeclared identifier 'UIControlEventTouchUpIside'; did you mean 'UIControlEventTouchUpInside'?
-o    [movieButton addTarget:self action:@selector(pushMovieButton:) forControlEvents:UIControlEventTouchUpIside];
-o                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
-o                                                                                    UIControlEventTouchUpInside
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h:19:5: note: 'UIControlEventTouchUpInside' declared here
-o    UIControlEventTouchUpInside       = 1 <<  6,
-o    ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:39:5: error: no known instance method for selector 'assObserver:selector:name:objet:'
-o    [[NSNotificationCenter defaultCenter] assObserver:self selector:@selector(finishPlayback:) name:MPMoviePlayerPlaybackDidFinishNotification objet:player];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: warning: implicit declaration of function 'CGRectnake' is invalid in C99 [-Wimplicit-function-declaration]
-o    [player.view setFrame:CGRectnake(0, 80, 320, 380)];
-o                          ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: error: sending 'int' to parameter of incompatible type 'CGRect' (aka 'struct CGRect')
-o    [player.view setFrame:CGRectnake(0, 80, 320, 380)];
-o                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:166:40: note: passing argument to parameter 'frame' here
-o@property(nonatomic) CGRect            frame;
-o                                       ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:140:14: warning: unused variable 'status' [-Wunused-variable]
-o    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault, imageSize.width, imageSize.height, kCVPixelFormatType_32ARGB, (__bridge CFDictionaryRef) options, &pxbuffer);
-o             ^
-o2 warnings and 4 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m01686064256eb641^4fb27965256eb641^-3274"/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:28:54: error: use of undeclared identifier 'UIButtonTypeRoundeRect'; did you mean 'UIButtonTypeRoundedRect'?    UIButton *movieButton = [UIButton buttonWithType:UIButtonTypeRoundeRect];                                                     ^~~~~~~~~~~~~~~~~~~~~~                                                     UIButtonTypeRoundedRect/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:18:5: note: 'UIButtonTypeRoundedRect' declared here    UIButtonTypeRoundedRect,          // rounded rect, flat white button, like in address card    ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:30:85: error: use of undeclared identifier 'UIControlEventTouchUpIside'; did you mean 'UIControlEventTouchUpInside'?    [movieButton addTarget:self action:@selector(pushMovieButton:) forControlEvents:UIControlEventTouchUpIside];                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                    UIControlEventTouchUpInside/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h:19:5: note: 'UIControlEventTouchUpInside' declared here    UIControlEventTouchUpInside       = 1 <<  6,    ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:39:5: error: no known instance method for selector 'assObserver:selector:name:objet:'    [[NSNotificationCenter defaultCenter] assObserver:self selector:@selector(finishPlayback:) name:MPMoviePlayerPlaybackDidFinishNotification objet:player];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: warning: implicit declaration of function 'CGRectnake' is invalid in C99 [-Wimplicit-function-declaration]    [player.view setFrame:CGRectnake(0, 80, 320, 380)];                          ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: error: sending 'int' to parameter of incompatible type 'CGRect' (aka 'struct CGRect')    [player.view setFrame:CGRectnake(0, 80, 320, 380)];                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:166:40: note: passing argument to parameter 'frame' here@property(nonatomic) CGRect            frame;                                       ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:140:14: warning: unused variable 'status' [-Wunused-variable]    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault, imageSize.width, imageSize.height, kCVPixelFormatType_32ARGB, (__bridge CFDictionaryRef) options, &pxbuffer);             ^2 warnings and 4 errors generated.6(36%IDEClangDiagnosticActivityLogMessage2@94"Use of undeclared identifier 'UIButtonTypeRoundeRect'; did you mean 'UIButtonTypeRoundedRect'?-376317285#18446744073709551615#0#1(2@39"'UIButtonTypeRoundedRect' declared here-376317285#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@178"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h0000000000000000^17#4#17#4#412#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^27#53#27#53#701#0#14"Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^27#53#27#75#701#22#-2@102"Use of undeclared identifier 'UIControlEventTouchUpIside'; did you mean 'UIControlEventTouchUpInside'?-376317285#18446744073709551615#0#1(2@43"'UIControlEventTouchUpInside' declared here-376317285#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@179"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h0000000000000000^18#4#18#4#610#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^29#84#29#84#861#0#14"Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^29#84#29#110#861#26#-2@72"No known instance method for selector 'assObserver:selector:name:objet:'-376317285#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^38#4#38#4#1251#0#18"ARC Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^38#4#38#156#1251#151#-2@63"Implicit declaration of function 'CGRectnake' is invalid in C99-376317285#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^39#26#39#26#1431#0#14"Semantic Issue--2@78"Sending 'int' to parameter of incompatible type 'CGRect' (aka 'struct CGRect')-376317285#18446744073709551615#0#1(2@42"Passing argument to parameter 'frame' here-376317285#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@176"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h0000000000000000^165#39#165#39#7662#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^39#26#39#26#1431#0#14"Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^39#26#39#53#1431#26#-2@24"Unused variable 'status'-376317285#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^139#13#139#13#6564#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^3791"CompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.o ConvertToMovie/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ViewController.o36"920A1FD6-372A-4D0D-9FD8-8740F2FBF8C8-
-
-CCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376302108.899742
-e376302109.215692
-r1
-xCompileC
-xbuild/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.o
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m289be61cea6db641^fa47371dea6db641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m0000000000000000^3731"CompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.o ConvertToMovie/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/main.o36"AF453321-6FC0-4637-A5CF-BB04F9A625CC-
-
-CCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/AppDelegate.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376302109.719547
-e376302109.990344
-r1
-xCompileC
-xbuild/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/AppDelegate.o
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.me55eb81dea6db641^5b94fd1dea6db641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m0000000000000000^3780"CompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/AppDelegate.o ConvertToMovie/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7s -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/AppDelegate.o36"2B7D6EC3-B493-4849-8A89-235B7710EBAD-
-
-CCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ViewController.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376315766.006663
-e376315767.176611
-r0
-xCompileC
-xbuild/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ViewController.o
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:28:54: error: use of undeclared identifier 'UIButtonTypeRoundeRect'; did you mean 'UIButtonTypeRoundedRect'?
-o    UIButton *movieButton = [UIButton buttonWithType:UIButtonTypeRoundeRect];
-o                                                     ^~~~~~~~~~~~~~~~~~~~~~
-o                                                     UIButtonTypeRoundedRect
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:18:5: note: 'UIButtonTypeRoundedRect' declared here
-o    UIButtonTypeRoundedRect,          // rounded rect, flat white button, like in address card
-o    ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:30:85: error: use of undeclared identifier 'UIControlEventTouchUpIside'; did you mean 'UIControlEventTouchUpInside'?
-o    [movieButton addTarget:self action:@selector(pushMovieButton:) forControlEvents:UIControlEventTouchUpIside];
-o                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
-o                                                                                    UIControlEventTouchUpInside
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h:19:5: note: 'UIControlEventTouchUpInside' declared here
-o    UIControlEventTouchUpInside       = 1 <<  6,
-o    ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:39:5: error: no known instance method for selector 'assObserver:selector:name:objet:'
-o    [[NSNotificationCenter defaultCenter] assObserver:self selector:@selector(finishPlayback:) name:MPMoviePlayerPlaybackDidFinishNotification objet:player];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: warning: implicit declaration of function 'CGRectnake' is invalid in C99 [-Wimplicit-function-declaration]
-o    [player.view setFrame:CGRectnake(0, 80, 320, 380)];
-o                          ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: error: sending 'int' to parameter of incompatible type 'CGRect' (aka 'struct CGRect')
-o    [player.view setFrame:CGRectnake(0, 80, 320, 380)];
-o                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:166:40: note: passing argument to parameter 'frame' here
-o@property(nonatomic) CGRect            frame;
-o                                       ^
-o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:140:14: warning: unused variable 'status' [-Wunused-variable]
-o    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault, imageSize.width, imageSize.height, kCVPixelFormatType_32ARGB, (__bridge CFDictionaryRef) options, &pxbuffer);
-o             ^
-o2 warnings and 4 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m93e401761f6eb641^f6422d771f6eb641^-3274"/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:28:54: error: use of undeclared identifier 'UIButtonTypeRoundeRect'; did you mean 'UIButtonTypeRoundedRect'?    UIButton *movieButton = [UIButton buttonWithType:UIButtonTypeRoundeRect];                                                     ^~~~~~~~~~~~~~~~~~~~~~                                                     UIButtonTypeRoundedRect/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:18:5: note: 'UIButtonTypeRoundedRect' declared here    UIButtonTypeRoundedRect,          // rounded rect, flat white button, like in address card    ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:30:85: error: use of undeclared identifier 'UIControlEventTouchUpIside'; did you mean 'UIControlEventTouchUpInside'?    [movieButton addTarget:self action:@selector(pushMovieButton:) forControlEvents:UIControlEventTouchUpIside];                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                    UIControlEventTouchUpInside/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h:19:5: note: 'UIControlEventTouchUpInside' declared here    UIControlEventTouchUpInside       = 1 <<  6,    ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:39:5: error: no known instance method for selector 'assObserver:selector:name:objet:'    [[NSNotificationCenter defaultCenter] assObserver:self selector:@selector(finishPlayback:) name:MPMoviePlayerPlaybackDidFinishNotification objet:player];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: warning: implicit declaration of function 'CGRectnake' is invalid in C99 [-Wimplicit-function-declaration]    [player.view setFrame:CGRectnake(0, 80, 320, 380)];                          ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:40:27: error: sending 'int' to parameter of incompatible type 'CGRect' (aka 'struct CGRect')    [player.view setFrame:CGRectnake(0, 80, 320, 380)];                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:166:40: note: passing argument to parameter 'frame' here@property(nonatomic) CGRect            frame;                                       ^/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:140:14: warning: unused variable 'status' [-Wunused-variable]    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault, imageSize.width, imageSize.height, kCVPixelFormatType_32ARGB, (__bridge CFDictionaryRef) options, &pxbuffer);             ^2 warnings and 4 errors generated.6(36%IDEClangDiagnosticActivityLogMessage2@94"Use of undeclared identifier 'UIButtonTypeRoundeRect'; did you mean 'UIButtonTypeRoundedRect'?-376315767#18446744073709551615#0#1(2@39"'UIButtonTypeRoundedRect' declared here-376315767#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@178"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h0000000000000000^17#4#17#4#412#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^27#53#27#53#701#0#14"Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^27#53#27#75#701#22#-2@102"Use of undeclared identifier 'UIControlEventTouchUpIside'; did you mean 'UIControlEventTouchUpInside'?-376315767#18446744073709551615#0#1(2@43"'UIControlEventTouchUpInside' declared here-376315767#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@179"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h0000000000000000^18#4#18#4#610#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^29#84#29#84#861#0#14"Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^29#84#29#110#861#26#-2@72"No known instance method for selector 'assObserver:selector:name:objet:'-376315767#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^38#4#38#4#1251#0#18"ARC Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^38#4#38#156#1251#151#-2@63"Implicit declaration of function 'CGRectnake' is invalid in C99-376315767#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^39#26#39#26#1431#0#14"Semantic Issue--2@78"Sending 'int' to parameter of incompatible type 'CGRect' (aka 'struct CGRect')-376315767#18446744073709551615#0#1(2@42"Passing argument to parameter 'frame' here-376315767#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@176"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h0000000000000000^165#39#165#39#7662#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^39#26#39#26#1431#0#14"Semantic Issue1(3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^39#26#39#53#1431#26#-2@24"Unused variable 'status'-376315767#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^139#13#139#13#6564#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^3798"CompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ViewController.o ConvertToMovie/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7s -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ViewController.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ViewController.o36"98851312-455A-4F5A-B01D-64CB1474CED5-
-
-CCompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/main.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376302109.575965
-e376302109.674418
-r1
-xCompileC
-xbuild/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/main.o
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.md49d931dea6db641^72a7ac1dea6db641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m0000000000000000^3738"CompileC build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/main.o ConvertToMovie/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7s -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/main.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/main.o36"5D27AFCA-DC7D-4BC2-B6BA-ECE0ACBCCBBF-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default-568h@2x.png ConvertToMovie/Default-568h@2x.png
-s376302111.774153
-e376302112.005314
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default-568h@2x.png
-xConvertToMovie/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/Default-568h@2x.png ConvertToMovie/Default-568h@2x.png664bc61fea6db641^3f700120ea6db641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default-568h@2x.png0000000000000000^691"CopyPNGFile "build/Release-iphoneos/ConvertToMovie.app/Default-568h@2x.png" "ConvertToMovie/Default-568h@2x.png"    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default-568h@2x.png" "/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default-568h@2x.png"36"CD26EE15-B7E0-4E86-8B42-9C025D1D066A-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default.png ConvertToMovie/Default.png
-s376302111.349904
-e376302111.576709
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default.png
-xConvertToMovie/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/Default.png ConvertToMovie/Default.png82ae591fea6db641^c4b0931fea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/Default.png ConvertToMovie/Default.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default.png36"105F4604-1C1C-4DB0-B580-951D8DEBF228-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default@2x.png ConvertToMovie/Default@2x.png
-s376302111.578157
-e376302111.772690
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default@2x.png
-xConvertToMovie/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/Default@2x.png ConvertToMovie/Default@2x.png6d1d941fea6db641^ccd3c51fea6db641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default@2x.png0000000000000000^671"CopyPNGFile "build/Release-iphoneos/ConvertToMovie.app/Default@2x.png" "ConvertToMovie/Default@2x.png"    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default@2x.png" "/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Default@2x.png"36"619DAB37-1531-45FE-8C27-7D10E7D1071C-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy00.png ConvertToMovie/dummy00.png
-s376302112.006603
-e376302112.127135
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy00.png
-xConvertToMovie/dummy00.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy00.png ConvertToMovie/dummy00.png85cc0120ea6db641^b88f2020ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy00.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy00.png ConvertToMovie/dummy00.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy00.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy00.png36"B27E6DBC-BDA2-45FD-ACC2-F18B33AA2359-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy01.png ConvertToMovie/dummy01.png
-s376302112.128516
-e376302112.251834
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy01.png
-xConvertToMovie/dummy01.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy01.png ConvertToMovie/dummy01.png71002120ea6db641^6e854020ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy01.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy01.png ConvertToMovie/dummy01.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy01.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy01.png36"994B0C5D-F59B-4522-BEA1-C4648F6A2A01-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy02.png ConvertToMovie/dummy02.png
-s376302112.253250
-e376302112.374589
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy02.png
-xConvertToMovie/dummy02.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy02.png ConvertToMovie/dummy02.png67ef4020ea6db641^3ae75f20ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy02.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy02.png ConvertToMovie/dummy02.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy02.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy02.png36"E4A463B8-A206-4E20-9428-4C1B1AA01A16-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy03.png ConvertToMovie/dummy03.png
-s376302112.375884
-e376302112.510391
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy03.png
-xConvertToMovie/dummy03.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy03.png ConvertToMovie/dummy03.png37546020ea6db641^b5c08220ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy03.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy03.png ConvertToMovie/dummy03.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy03.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy03.png36"40AFA6CB-C39D-4852-A1F0-942B5CE09AAE-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy04.png ConvertToMovie/dummy04.png
-s376302112.511839
-e376302112.685169
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy04.png
-xConvertToMovie/dummy04.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy04.png ConvertToMovie/dummy04.png1c258320ea6db641^a06faf20ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy04.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy04.png ConvertToMovie/dummy04.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy04.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy04.png36"59558B70-03F9-4107-9C24-E57366A9EB77-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy05.png ConvertToMovie/dummy05.png
-s376302112.686872
-e376302112.856816
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy05.png
-xConvertToMovie/dummy05.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy05.png ConvertToMovie/dummy05.png1bf2af20ea6db641^0e66db20ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy05.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy05.png ConvertToMovie/dummy05.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy05.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy05.png36"6FF9516A-5897-40E6-AF47-898BEE91470A-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy06.png ConvertToMovie/dummy06.png
-s376302112.858176
-e376302112.992635
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy06.png
-xConvertToMovie/dummy06.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy06.png ConvertToMovie/dummy06.png51f5db20ea6db641^5a10fe20ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy06.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy06.png ConvertToMovie/dummy06.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy06.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy06.png36"C1359A81-F2E5-489C-8A4A-9C4E9E4256D5-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy07.png ConvertToMovie/dummy07.png
-s376302112.994048
-e376302113.210382
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy07.png
-xConvertToMovie/dummy07.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy07.png ConvertToMovie/dummy07.pngf393fe20ea6db641^eeee3521ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy07.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy07.png ConvertToMovie/dummy07.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy07.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy07.png36"B27D29D0-3E30-4935-A1DB-142A9D1CEA2E-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy08.png ConvertToMovie/dummy08.png
-s376302113.212247
-e376302113.353595
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy08.png
-xConvertToMovie/dummy08.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy08.png ConvertToMovie/dummy08.png53b03621ea6db641^5da65a21ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy08.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy08.png ConvertToMovie/dummy08.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy08.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy08.png36"EA450967-8538-4A50-B355-8AFE44A94C21-
-
-CCopyPNGFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy09.png ConvertToMovie/dummy09.png
-s376302113.355123
-e376302115.504767
-r1
-xCopyPNGFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy09.png
-xConvertToMovie/dummy09.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy09.png ConvertToMovie/dummy09.pngab045b21ea6db641^fd4c8123ea6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy09.png0000000000000000^651"CopyPNGFile build/Release-iphoneos/ConvertToMovie.app/dummy09.png ConvertToMovie/dummy09.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy09.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/dummy09.png36"AC00CAD6-D3CB-4F57-9531-067521A6BCDC-
-
-CCopyStringsFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/en.lproj/InfoPlist.strings ConvertToMovie/en.lproj/InfoPlist.strings
-s376302111.342902
-e376302111.348516
-r1
-xCopyStringsFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/en.lproj/InfoPlist.strings
-xConvertToMovie/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy ConvertToMovie/en.lproj/InfoPlist.strings53e9571fea6db641^3e59591fea6db641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/en.lproj/InfoPlist.strings0000000000000000^625"CopyStringsFile build/Release-iphoneos/ConvertToMovie.app/en.lproj/InfoPlist.strings ConvertToMovie/en.lproj/InfoPlist.strings    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/en.lproj -- ConvertToMovie/en.lproj/InfoPlist.strings36"09EA0D6A-A223-4715-8348-EFDCF7978D9D-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist
-s376302107.484541
-e376302107.496656
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-xbuild/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist616d7c1bea6db641^96247f1bea6db641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist0000009574041042^909"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app36"8078FBC7-79FC-43F1-A834-7644FC7FE1CC-
-
-CCreateUniversalBinary /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie normal "armv7 armv7s"
-s376302111.119537
-e376302111.200193
-r1
-xCreateUniversalBinary
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie
-xnormal
-xarmv7 armv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Create universal binary /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie603c1f1fea6db641^a050331fea6db641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie000000000080d041^800"CreateUniversalBinary build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie normal "armv7 armv7s"    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    lipo -create /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie -output /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie36"3E7EAEDA-E698-49F3-9DCB-1698527C395D-
-
-CGenerateDSYMFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app.dSYM /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie
-s376314092.441854
-e376314092.602380
-r1
-xGenerateDSYMFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app.dSYM
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generating /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app.dSYM308371ec186eb641^26379aec186eb641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app.dSYM/0000000000000000^691"GenerateDSYMFile build/Release-iphoneos/ConvertToMovie.app.dSYM build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ConvertToMovie -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app.dSYM36"3549852C-7273-4439-B14F-E0CF8E5EAE63-
-
-CLd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie normal armv7
-s376302109.991627
-e376302110.381592
-r1
-xLd
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Link /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMoviea4fbfd1dea6db641^78b8611eea6db641^---0#0#0#--1371"Ld build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie normal armv7    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -filelist /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -framework CoreFoundation -framework CoreVideo -framework MediaPlayer -framework AVFoundation -framework CoreMedia -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7/ConvertToMovie36"E1063AAF-4FA3-44E0-ADBB-0A9CD33A198C-
-
-CLd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie normal armv7s
-s376302110.959367
-e376302111.112439
-r1
-xLd
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie
-xnormal
-xarmv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Link /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie51bdf51eea6db641^3dd61c1fea6db641^---0#0#0#--1376"Ld build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie normal armv7s    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -filelist /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -framework CoreFoundation -framework CoreVideo -framework MediaPlayer -framework AVFoundation -framework CoreMedia -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/Objects-normal/armv7s/ConvertToMovie36"CA0EBB20-B6E2-468F-8E05-9B94B3B850BD-
-
-CProcessInfoPlistFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Info.plist ConvertToMovie/ConvertToMovie-Info.plist
-s376302107.486342
-e376302107.504468
-r1
-xProcessInfoPlistFile
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Info.plist
-xConvertToMovie/ConvertToMovie-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process ConvertToMovie/ConvertToMovie-Info.plist029e7c1bea6db641^5d8c811bea6db641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Info.plist0000000000000000^853"ProcessInfoPlistFile build/Release-iphoneos/ConvertToMovie.app/Info.plist ConvertToMovie/ConvertToMovie-Info.plist    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility ConvertToMovie/ConvertToMovie-Info.plist -genpkginfo /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/ResourceRules.plist -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/Info.plist36"B5A636CB-8CEE-48C5-8501-FB652B4F41A8-
-
-CProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376302107.517772
-e376302108.893549
-r1
-xProcessPCH
-x/var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.pth
-xConvertToMovie/ConvertToMovie-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ConvertToMovie/ConvertToMovie-Prefix.pch44e0841bea6db641^afeee41cea6db641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch0000000000000000^3772"ProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7s -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch -o /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cddoskizprayhecvieqhepsurjbc/ConvertToMovie-Prefix.pch.d36"7C452F08-1585-4DA7-93C3-F71598D9682A-
-
-CProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s376302107.515925
-e376302108.892945
-r1
-xProcessPCH
-x/var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.pth
-xConvertToMovie/ConvertToMovie-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ConvertToMovie/ConvertToMovie-Prefix.pchb761841bea6db641^1ba0e41cea6db641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch0000000000000000^3769"ProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources/armv7 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch -o /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-cgkgunplffsoesandhjzjbxgujjt/ConvertToMovie-Prefix.pch.d36"C3C94FC2-6563-4D71-A0FB-1576F943DECE-
-
-CProcessProductPackaging "/Users/takaaki/Library/MobileDevice/Provisioning Profiles/3A4A68DB-DD89-4E03-8DF8-9A3F4DACC0C4.mobileprovision" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/embedded.mobileprovision
-s376302115.528516
-e376302115.537321
-r1
-xProcessProductPackaging
-x/Users/takaaki/Library/MobileDevice/Provisioning Profiles/3A4A68DB-DD89-4E03-8DF8-9A3F4DACC0C4.mobileprovision
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"ProcessProductPackaging "/Users/takaaki/Library/MobileDevice/Provisioning Profiles/3A4A68DB-DD89-4E03-8DF8-9A3F4DACC0C4.mobileprovision" build/Release-iphoneos/ConvertToMovie.app/embedded.mobileprovision27688723ea6db641^c58f8923ea6db641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/embedded.mobileprovision0000000000000000^735"ProcessProductPackaging "/Users/takaaki/Library/MobileDevice/Provisioning Profiles/3A4A68DB-DD89-4E03-8DF8-9A3F4DACC0C4.mobileprovision" build/Release-iphoneos/ConvertToMovie.app/embedded.mobileprovision    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility "/Users/takaaki/Library/MobileDevice/Provisioning Profiles/3A4A68DB-DD89-4E03-8DF8-9A3F4DACC0C4.mobileprovision" -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/embedded.mobileprovision36"E9298165-AEA1-4698-AD41-FB68F26373D0-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent
-s376302115.579770
-e376302115.586586
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection230"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent83889423ea6db641^9b3b9623ea6db641^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent000000000080d041^815"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphoneos/ConvertToMovie.build/ConvertToMovie.xcent36"0625A497-C649-4D39-83B4-817BEBCE7847-
-
-CTouch /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app
-s376302115.546485
-e376302115.571872
-r1
-xTouch
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app74088c23ea6db641^c5739223ea6db641^---0#0#0#--424"Touch build/Release-iphoneos/ConvertToMovie.app    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app36"D12D1B0E-4301-4858-9C36-36B940327BF4-
-
-CValidate /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app
-s376314093.254871
-e376314094.268694
-r1
-xValidate
-x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app
-owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
-oUnable to validate your application. - (null)
-o
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Validate build/Release-iphoneos/ConvertToMovie.appea5c41ed186eb641^fce444ee186eb641^-45"Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57376314094#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@109"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app/0000000000000000^568"Validate build/Release-iphoneos/ConvertToMovie.app    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphoneos/ConvertToMovie.app36"6937B69E-E11F-48E0-9E6A-6F9998A3C883-
-
