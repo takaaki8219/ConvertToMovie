@@ -51,6 +51,8 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishPreload:) name:MPMediaPlaybackIsPreparedToPlayDidChangeNotification object:player];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishPlayback:) name:MPMoviePlayerPlaybackDidFinishNotification object:player];
+    
+    [player prepareToPlay];
 }
 
 #pragma mark movie action
@@ -75,6 +77,7 @@
 {
     NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"Documents/movie.mp4"]];
     if ( [[NSFileManager defaultManager] fileExistsAtPath:path] ) {
+        NSLog(@"%@", path);
         [[NSFileManager defaultManager] removeItemAtPath:path error:nil];
         NSLog(@"deleted");
         if ( [[NSFileManager defaultManager] fileExistsAtPath:path] ) {
@@ -152,7 +155,13 @@
             } else {
                 //Finish the session:
                 [writerInput markAsFinished];
-                [videoWriter finishWriting];
+                if ( [[AVAssetWriter class] instancesRespondToSelector:@selector(finishWritingWithCompletionHandler:)] ) {
+                    [videoWriter finishWritingWithCompletionHandler:^{
+                        NSLog(@"動画保存完了");
+                    }];
+                }else {
+                    [videoWriter finishWriting];
+                }
                 
                 CVPixelBufferPoolRelease(adaptor.pixelBufferPool);
                 NSLog (@"Done");
