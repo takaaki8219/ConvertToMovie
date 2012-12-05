@@ -32,6 +32,7 @@
 		2D6F7EAC166DA2D200E99429 /* dummy07.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6F7EA2166DA2D200E99429 /* dummy07.png */; };
 		2D6F7EAD166DA2D200E99429 /* dummy08.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6F7EA3166DA2D200E99429 /* dummy08.png */; };
 		2D6F7EAE166DA2D200E99429 /* dummy09.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6F7EA4166DA2D200E99429 /* dummy09.png */; };
+		2DAFDF7A166E3E3C004F4946 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAFDF79166E3E3C004F4946 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		2D6F7EA2166DA2D200E99429 /* dummy07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy07.png; sourceTree = "<group>"; };
 		2D6F7EA3166DA2D200E99429 /* dummy08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy08.png; sourceTree = "<group>"; };
 		2D6F7EA4166DA2D200E99429 /* dummy09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy09.png; sourceTree = "<group>"; };
+		2DAFDF79166E3E3C004F4946 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAFDF7A166E3E3C004F4946 /* AudioToolbox.framework in Frameworks */,
 				2D6F7E99166D944E00E99429 /* CoreFoundation.framework in Frameworks */,
 				2D6F7E97166D935800E99429 /* CoreVideo.framework in Frameworks */,
 				2D6F7E95166D917A00E99429 /* MediaPlayer.framework in Frameworks */,
@@ -89,6 +92,7 @@
 		2D2A112B166D724200264431 = {
 			isa = PBXGroup;
 			children = (
+				2DAFDF79166E3E3C004F4946 /* AudioToolbox.framework */,
 				2D2A1140166D724500264431 /* ConvertToMovie */,
 				2D2A1139166D724400264431 /* Frameworks */,
 				2D2A1137166D724400264431 /* Products */,

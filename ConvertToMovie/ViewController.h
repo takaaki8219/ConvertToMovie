@@ -7,12 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreMedia/CoreMedia.h>
-#import <MediaPlayer/MediaPlayer.h>
-#import <AVFoundation/AVFoundation.h>
-#import <CoreVideo/CoreVideo.h>
-#import <CoreFoundation/CoreFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 
 @end

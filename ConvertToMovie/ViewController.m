@@ -8,9 +8,17 @@
 
 #import "ViewController.h"
 
+#import <CoreMedia/CoreMedia.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVFoundation/AVFoundation.h>
+#import <CoreVideo/CoreVideo.h>
+#import <CoreFoundation/CoreFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+
 @interface ViewController ()
 {
     NSArray *testImageArray;
+    MPMoviePlayerController *player;
 }
 @end
 
@@ -24,11 +32,57 @@
     button.frame = CGRectMake(0, 0, 80, 80);
     [button addTarget:self action:@selector(pushButton:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+
+    UIButton *movieButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    movieButton.frame = CGRectMake(80, 0, 80, 80);
+    [movieButton addTarget:self action:@selector(pushMovieButton:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:movieButton];
 }
 
+#pragma mark movie button action
+- (void)pushMovieButton:(UIButton *)sender
+{
+    NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"Documents/movie.mp4"]];
+    player = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL fileURLWithPath:path]];
+    [player.view setFrame:CGRectMake(0, 80, 320, 380)];
+    player.scalingMode = MPMovieScalingModeAspectFit;
+    [self.view addSubview:player.view];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishPreload:) name:MPMediaPlaybackIsPreparedToPlayDidChangeNotification object:player];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishPlayback:) name:MPMoviePlayerPlaybackDidFinishNotification object:player];
+}
+
+#pragma mark movie action
+- (void)finishPreload:(NSNotification *)aNotification {
+    player = [aNotification object];
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:MPMediaPlaybackIsPreparedToPlayDidChangeNotification
+                                                  object:player];
+    [player play];
+}
+
+- (void)finishPlayback:(NSNotification *)aNotification {
+    player = [aNotification object];
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:MPMoviePlayerPlaybackDidFinishNotification
+                                                  object:player];
+    [player stop];
+}
+
+#pragma mark convert to movie from images
 - (void)pushButton:(UIButton *)sender
 {
     NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"Documents/movie.mp4"]];
+    if ( [[NSFileManager defaultManager] fileExistsAtPath:path] ) {
+        [[NSFileManager defaultManager] removeItemAtPath:path error:nil];
+        NSLog(@"deleted");
+        if ( [[NSFileManager defaultManager] fileExistsAtPath:path] ) {
+            NSLog(@"Why??");
+        }else {
+            NSLog(@"completed");
+        }
+    }
     testImageArray = [[NSArray alloc] initWithObjects:
                       [UIImage imageNamed:@"dummy00.png"],
                       [UIImage imageNamed:@"dummy01.png"],
@@ -41,10 +95,11 @@
                       [UIImage imageNamed:@"dummy08.png"],
                       [UIImage imageNamed:@"dummy09.png"],nil];
     
-    [self writeImageAsMovie:testImageArray toPath:path size:CGSizeMake(320, 480) duration:10]; //durationの意味がない...
+    [self writeImageAsMovie:testImageArray toPath:path size:CGSizeMake(280, 280) duration:00.1]; //durationの意味がない...
 }
 
--(void)writeImageAsMovie:(NSArray *)array toPath:(NSString *)path size:(CGSize)size duration:(int)duration
+#pragma mark 
+-(void)writeImageAsMovie:(NSArray *)array toPath:(NSString *)path size:(CGSize)size duration:(CGFloat)duration
 {
     NSError *error = nil;
     AVAssetWriter *videoWriter = [[AVAssetWriter alloc] initWithURL:[NSURL fileURLWithPath:path] fileType:AVFileTypeMPEG4 error:&error];
@@ -64,37 +119,52 @@
     [videoWriter startSessionAtSourceTime:kCMTimeZero];
     
     CVPixelBufferRef buffer = NULL;
-    buffer = [self pixelBufferFromCGImage:[[array objectAtIndex:0] CGImage] size:CGSizeMake(320, 480)];
     CVPixelBufferPoolCreatePixelBuffer (NULL, adaptor.pixelBufferPool, &buffer);
     
-    [adaptor appendPixelBuffer:buffer withPresentationTime:kCMTimeZero];
-    int i = 1;
-    while (writerInput.readyForMoreMediaData) // every iteration i add my CGImage to buffer, but after 5th iteration readyForMoreMediaData sets to NO, Why???
+    int i = 0;
+    int wait = 0;
+    int frameRate = 100;
+    while (true)
     {
-        NSLog(@"inside for loop %d",i);
-//        CMTime frameTime = CMTimeMake(1, 10);
-//        CMTime lastTime = CMTimeMake(i, 100);
-        CMTime frameTime = CMTimeMake(1800, 600);
-        CMTime lastTime = CMTimeMake(i, 600);
-        CMTime presentTime = CMTimeAdd(lastTime, frameTime); //movie全体の時間調整(たぶん)
-        
-        if (i >= [array count]) {
-            buffer = NULL;
-        } else {
-            buffer = [self pixelBufferFromCGImage:[[array objectAtIndex:i] CGImage] size:CGSizeMake(320, 480)];
-        }
-        
-        if (buffer) {
-            // append buffer
-            [adaptor appendPixelBuffer:buffer withPresentationTime:presentTime];
-            i++;
-        } else {
-            //Finish the session:
-            [writerInput markAsFinished];
-            [videoWriter finishWriting];
+        if ( writerInput.readyForMoreMediaData ) {
+            NSLog(@"inside for loop %d",i);
+//            CMTime frameTime = CMTimeMake(10, 10);
+//            CMTime lastTime = CMTimeMake((i-0)*10*i, 10);
+//    //        CMTime frameTime = CMTimeMake(1800, 600);
+//    //        CMTime lastTime = CMTimeMake((i-1) * 10, 600);
+//            NSLog (@"%lf(%lld,%d) - %lf(%lld,%d)", CMTimeGetSeconds(lastTime), lastTime.value, lastTime.timescale, CMTimeGetSeconds(frameTime), frameTime.value, frameTime.timescale);
+//    //        CMTime presentTime = CMTimeRangeMake(lastTime, frameTime);//
+//            CMTime presentTime = CMTimeAdd(lastTime, frameTime); //movie全体の時間調整(たぶん)
             
-            CVPixelBufferPoolRelease(adaptor.pixelBufferPool);
-            NSLog (@"Done");
+            CMTime presentTime = CMTimeMake(i * frameRate * duration, frameRate);
+//            NSLog (@"%lf(%lld,%d)", CMTimeGetSeconds(presentTime), presentTime.value, presentTime.timescale);
+            
+            if (i >= [array count]) {
+                buffer = NULL;
+            } else {
+                buffer = [self pixelBufferFromCGImage:[[array objectAtIndex:i] CGImage] size:CGSizeMake(320, 480)];
+            }
+            
+            if (buffer) {
+                // append buffer
+                [adaptor appendPixelBuffer:buffer withPresentationTime:presentTime];
+                i++;
+            } else {
+                //Finish the session:
+                [writerInput markAsFinished];
+                [videoWriter finishWriting];
+                
+                CVPixelBufferPoolRelease(adaptor.pixelBufferPool);
+                NSLog (@"Done");
+                break;
+            }
+            
+            wait = 0;
+        }else if ( wait == 0 ) {
+            NSLog(@"wait");
+            wait++;
+        }else if ( wait++ >= 1000000000 ) {
+            NSLog(@"Ummm...");
             break;
         }
     }

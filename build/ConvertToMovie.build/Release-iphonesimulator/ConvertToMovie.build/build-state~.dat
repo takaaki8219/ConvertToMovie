@@ -1,0 +1,504 @@
+TConvertToMovie
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Info.plist ConvertToMovie/ConvertToMovie-Info.plist
+cProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie normal i386
+cGenerateDSYMFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app.dSYM /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie
+cCopyStringsFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/en.lproj/InfoPlist.strings ConvertToMovie/en.lproj/InfoPlist.strings
+cCpResource ConvertToMovie/Default.png build/Release-iphonesimulator/ConvertToMovie.app/Default.png
+cCpResource ConvertToMovie/Default@2x.png build/Release-iphonesimulator/ConvertToMovie.app/Default@2x.png
+cCpResource ConvertToMovie/Default-568h@2x.png build/Release-iphonesimulator/ConvertToMovie.app/Default-568h@2x.png
+cCpResource ConvertToMovie/dummy00.png build/Release-iphonesimulator/ConvertToMovie.app/dummy00.png
+cCpResource ConvertToMovie/dummy01.png build/Release-iphonesimulator/ConvertToMovie.app/dummy01.png
+cCpResource ConvertToMovie/dummy02.png build/Release-iphonesimulator/ConvertToMovie.app/dummy02.png
+cCpResource ConvertToMovie/dummy03.png build/Release-iphonesimulator/ConvertToMovie.app/dummy03.png
+cCpResource ConvertToMovie/dummy04.png build/Release-iphonesimulator/ConvertToMovie.app/dummy04.png
+cCpResource ConvertToMovie/dummy05.png build/Release-iphonesimulator/ConvertToMovie.app/dummy05.png
+cCpResource ConvertToMovie/dummy06.png build/Release-iphonesimulator/ConvertToMovie.app/dummy06.png
+cCpResource ConvertToMovie/dummy07.png build/Release-iphonesimulator/ConvertToMovie.app/dummy07.png
+cCpResource ConvertToMovie/dummy08.png build/Release-iphonesimulator/ConvertToMovie.app/dummy08.png
+cCpResource ConvertToMovie/dummy09.png build/Release-iphonesimulator/ConvertToMovie.app/dummy09.png
+cTouch /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F8DC2CA0000000000000110
+t1334690506
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004F2DA52E0000000000182900
+t1328391470
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004F13913F0000000000285600
+t1326682431
+s2643456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F1391B60000000000244490
+t1326682550
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004F2DA4B80000000000069670
+t1328391352
+s431728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004F139426000000000001EAD0
+t1326683174
+s125648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F13922B0000000000353830
+t1326682667
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004F1392240000000000001534
+t1326682660
+s5428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004F2DAAF50000000000243A90
+t1328392949
+s2374288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004F2DA4D30000000000000BF5
+t1328391379
+s3061
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F2DA4F80000000000905E40
+t1328391416
+s9461312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/Availability.h
+c000000004F1392A70000000000001B57
+t1326682791
+s6999
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m
+c0000000050BD4D480000000000000919
+t1354583368
+s2329
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch
+c0000000050BD3AC5000000000000014B
+t1354578629
+s331
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m
+c0000000050BD6CFC0000000000001610
+t1354591484
+s5648
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy00.png
+c00000000506813C40000000000000E55
+t1348998084
+s3669
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy01.png
+c00000000506813C40000000000000F19
+t1348998084
+s3865
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy02.png
+c00000000506813C40000000000001208
+t1348998084
+s4616
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy03.png
+c00000000506813C40000000000001403
+t1348998084
+s5123
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy04.png
+c00000000506813C60000000000000E6D
+t1348998086
+s3693
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy05.png
+c00000000506813C600000000000012F9
+t1348998086
+s4857
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy06.png
+c00000000506813C6000000000000140E
+t1348998086
+s5134
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy07.png
+c00000000506813C60000000000000FB5
+t1348998086
+s4021
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy08.png
+c00000000506813C60000000000001396
+t1348998086
+s5014
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy09.png
+c00000000506813C60000000000001412
+t1348998086
+s5138
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/en.lproj/InfoPlist.strings
+c0000000050BD3AC5000000000000002D
+t1354578629
+s45
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m
+c0000000050BD3AC50000000000000167
+t1354578629
+s359
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ConvertToMovie.LinkFileList
+c0000000050BDB57900000000000001D3
+t1354610041
+s467
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app.dSYM
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Default.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Default@2x.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Info.plist
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/PkgInfo
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy00.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy01.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy02.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy03.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy04.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy05.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy06.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy07.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy08.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy09.png
+t2
+s0
+
+N/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.pth
+t2
+s0
+
+NConvertToMovie/ConvertToMovie-Info.plist
+c0000000050BD3AC50000000000000490
+t1354578629
+s1168
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies97374ff9ec6db641^e52ba5f9ec6db641^---0#1#0#--18"Check dependencies36"8D2C444D-4DBC-4E02-9977-B599BD11A37B-
+
+CCompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376302846.057579
+e376302847.175190
+r1
+xCompileC
+xbuild/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.o
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.me84b0ffeec6db641^44dc2cffec6db641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m0000000000000000^3946"CompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.o ConvertToMovie/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources/i386 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/AppDelegate.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/AppDelegate.o36"A0830F88-EB6A-42D7-AAC8-A86D61CE4D39-
+
+CCompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376302847.177258
+e376302847.550666
+r1
+xCompileC
+xbuild/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.o
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:107:14: warning: unused variable 'status' [-Wunused-variable]
+o    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault, imageSize.width, imageSize.height, kCVPixelFormatType_32ARGB, (__bridge CFDictionaryRef) options, &pxbuffer);
+o             ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m4aed2dffec6db641^840f8dffec6db641^-354"/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m:107:14: warning: unused variable 'status' [-Wunused-variable]    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault, imageSize.width, imageSize.height, kCVPixelFormatType_32ARGB, (__bridge CFDictionaryRef) options, &pxbuffer);             ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@24"Unused variable 'status'-376302847#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^106#13#106#13#4558#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m0000000000000000^3964"CompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.o ConvertToMovie/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources/i386 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ViewController.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ViewController.o36"9889C3F5-3F34-49E7-8E2F-435E76F9B544-
+
+CCompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376302845.821684
+e376302846.052219
+r1
+xCompileC
+xbuild/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.o
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.mfb95d2fdec6db641^675f0dfeec6db641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m0000000000000000^3904"CompileC build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.o ConvertToMovie/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources/i386 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch -MMD -MT dependencies -MF /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/main.m -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/main.o36"2F249FE6-8850-42E3-BDCF-44C9C4EEDAA6-
+
+CCopyStringsFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/en.lproj/InfoPlist.strings ConvertToMovie/en.lproj/InfoPlist.strings
+s376302848.198066
+e376302848.205865
+r1
+xCopyStringsFile
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/en.lproj/InfoPlist.strings
+xConvertToMovie/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy ConvertToMovie/en.lproj/InfoPlist.stringse5d43200ed6db641^fdbd3400ed6db641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/en.lproj/InfoPlist.strings0000000000000000^646"CopyStringsFile build/Release-iphonesimulator/ConvertToMovie.app/en.lproj/InfoPlist.strings ConvertToMovie/en.lproj/InfoPlist.strings    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/en.lproj -- ConvertToMovie/en.lproj/InfoPlist.strings36"86B1E796-440B-4A99-BBC1-47375A017AAB-
+
+CCpResource ConvertToMovie/Default-568h@2x.png build/Release-iphonesimulator/ConvertToMovie.app/Default-568h@2x.png
+s376302848.221595
+e376302848.235280
+r1
+xCpResource
+xConvertToMovie/Default-568h@2x.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release-iphonesimulator/ConvertToMovie.app/Default-568h@2x.png44fb3800ed6db641^d3663c00ed6db641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Default-568h@2x.png000000000080d041^813"CpResource "ConvertToMovie/Default-568h@2x.png" "build/Release-iphonesimulator/ConvertToMovie.app/Default-568h@2x.png"    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default-568h@2x.png" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"4B8A63BD-7DAE-44A0-8591-FAE2FB488E80-
+
+CCpResource ConvertToMovie/Default.png build/Release-iphonesimulator/ConvertToMovie.app/Default.png
+s376302848.207411
+e376302848.213227
+r1
+xCpResource
+xConvertToMovie/Default.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/Default.png0b423500ed6db641^bdc23600ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Default.png000000000080d041^783"CpResource ConvertToMovie/Default.png build/Release-iphonesimulator/ConvertToMovie.app/Default.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"927EE265-3BC5-49A8-B1E7-162DFD9274EF-
+
+CCpResource ConvertToMovie/Default@2x.png build/Release-iphonesimulator/ConvertToMovie.app/Default@2x.png
+s376302848.214536
+e376302848.220381
+r1
+xCpResource
+xConvertToMovie/Default@2x.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Release-iphonesimulator/ConvertToMovie.app/Default@2x.png46973700ed6db641^016c3800ed6db641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Default@2x.png000000000080d041^798"CpResource "ConvertToMovie/Default@2x.png" "build/Release-iphonesimulator/ConvertToMovie.app/Default@2x.png"    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/Default@2x.png" /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"F0C25E58-EE7B-4A19-B254-6771A381E079-
+
+CCpResource ConvertToMovie/dummy00.png build/Release-iphonesimulator/ConvertToMovie.app/dummy00.png
+s376302848.236688
+e376302848.240500
+r1
+xCpResource
+xConvertToMovie/dummy00.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy00.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy00.png6dc73c00ed6db641^419a3d00ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy00.png000000000080d041^783"CpResource ConvertToMovie/dummy00.png build/Release-iphonesimulator/ConvertToMovie.app/dummy00.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy00.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"D14616BE-AC8F-4383-A5E2-B8EFF746A35F-
+
+CCpResource ConvertToMovie/dummy01.png build/Release-iphonesimulator/ConvertToMovie.app/dummy01.png
+s376302848.241742
+e376302848.246685
+r1
+xCpResource
+xConvertToMovie/dummy01.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy01.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy01.png8ffc3d00ed6db641^b03d3f00ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy01.png000000000080d041^783"CpResource ConvertToMovie/dummy01.png build/Release-iphonesimulator/ConvertToMovie.app/dummy01.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy01.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"9F43840E-D2E6-480A-9FBA-F530458C9CBA-
+
+CCpResource ConvertToMovie/dummy02.png build/Release-iphonesimulator/ConvertToMovie.app/dummy02.png
+s376302848.252522
+e376302848.259791
+r1
+xCpResource
+xConvertToMovie/dummy02.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy02.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy02.pngb9c54000ed6db641^d49a4200ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy02.png000000000080d041^783"CpResource ConvertToMovie/dummy02.png build/Release-iphonesimulator/ConvertToMovie.app/dummy02.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy02.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"86545F3D-BDF3-491C-8434-D43C63245296-
+
+CCpResource ConvertToMovie/dummy03.png build/Release-iphonesimulator/ConvertToMovie.app/dummy03.png
+s376302848.261074
+e376302848.264930
+r1
+xCpResource
+xConvertToMovie/dummy03.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy03.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy03.png6af84200ed6db641^e6e64300ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy03.png000000000080d041^783"CpResource ConvertToMovie/dummy03.png build/Release-iphonesimulator/ConvertToMovie.app/dummy03.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy03.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"E21EFD51-88CF-4C02-B7B5-7753666BF46C-
+
+CCpResource ConvertToMovie/dummy04.png build/Release-iphonesimulator/ConvertToMovie.app/dummy04.png
+s376302848.277890
+e376302848.284323
+r1
+xCpResource
+xConvertToMovie/dummy04.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy04.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy04.pnge6404700ed6db641^73d54800ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy04.png000000000080d041^783"CpResource ConvertToMovie/dummy04.png build/Release-iphonesimulator/ConvertToMovie.app/dummy04.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy04.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"CEC89EF1-43C3-4621-98B9-875F17BEECE8-
+
+CCpResource ConvertToMovie/dummy05.png build/Release-iphonesimulator/ConvertToMovie.app/dummy05.png
+s376302848.285569
+e376302848.289126
+r1
+xCpResource
+xConvertToMovie/dummy05.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy05.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy05.png09374900ed6db641^718e4a00ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy05.png000000000080d041^783"CpResource ConvertToMovie/dummy05.png build/Release-iphonesimulator/ConvertToMovie.app/dummy05.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy05.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"6EB0E9FE-BFCB-469D-B870-09CEB5F58988-
+
+CCpResource ConvertToMovie/dummy06.png build/Release-iphonesimulator/ConvertToMovie.app/dummy06.png
+s376302848.291438
+e376302848.296347
+r1
+xCpResource
+xConvertToMovie/dummy06.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy06.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy06.png13b74a00ed6db641^34f84b00ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy06.png000000000080d041^783"CpResource ConvertToMovie/dummy06.png build/Release-iphonesimulator/ConvertToMovie.app/dummy06.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy06.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"16B95B12-2E93-4E7A-A36A-995A62AB4CF8-
+
+CCpResource ConvertToMovie/dummy07.png build/Release-iphonesimulator/ConvertToMovie.app/dummy07.png
+s376302848.299280
+e376302848.303710
+r1
+xCpResource
+xConvertToMovie/dummy07.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy07.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy07.png0dc64c00ed6db641^68cb4d00ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy07.png000000000080d041^783"CpResource ConvertToMovie/dummy07.png build/Release-iphonesimulator/ConvertToMovie.app/dummy07.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy07.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"79DD2531-4D0B-4AE5-A146-E7E9A5B04745-
+
+CCpResource ConvertToMovie/dummy08.png build/Release-iphonesimulator/ConvertToMovie.app/dummy08.png
+s376302848.306980
+e376302848.354619
+r1
+xCpResource
+xConvertToMovie/dummy08.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy08.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy08.png89b74e00ed6db641^5ad55a00ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy08.png000000000080d041^783"CpResource ConvertToMovie/dummy08.png build/Release-iphonesimulator/ConvertToMovie.app/dummy08.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy08.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"15CAB8D8-B0D3-4BB8-9EFF-EA617B725E27-
+
+CCpResource ConvertToMovie/dummy09.png build/Release-iphonesimulator/ConvertToMovie.app/dummy09.png
+s376302848.355942
+e376302848.369701
+r1
+xCpResource
+xConvertToMovie/dummy09.png
+xbuild/Release-iphonesimulator/ConvertToMovie.app/dummy09.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphonesimulator/ConvertToMovie.app/dummy09.pngb3405b00ed6db641^f8e35e00ed6db641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/dummy09.png000000000080d041^783"CpResource ConvertToMovie/dummy09.png build/Release-iphonesimulator/ConvertToMovie.app/dummy09.png    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/dummy09.png /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"06E000DA-4BCA-46A3-926F-039C0397C928-
+
+CGenerateDSYMFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app.dSYM /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie
+s376302848.088607
+e376302848.189782
+r1
+xGenerateDSYMFile
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app.dSYM
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generating /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app.dSYMd9cf1600ed6db641^3a953000ed6db641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app.dSYM000000000080d041^726"GenerateDSYMFile build/Release-iphonesimulator/ConvertToMovie.app.dSYM build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app.dSYM36"6CF2EE64-5410-45DB-8B38-441971270907-
+
+CLd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie normal i386
+s376302847.557646
+e376302848.081315
+r1
+xLd
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovieace58effec6db641^ebe01400ed6db641^---0#0#0#--1396"Ld build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie normal i386    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator -filelist /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/Objects-normal/i386/ConvertToMovie.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework CoreFoundation -framework CoreVideo -framework MediaPlayer -framework AVFoundation -framework CoreMedia -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/ConvertToMovie36"10DBD864-6DDF-4F55-B449-F7286ED01809-
+
+CProcessInfoPlistFile /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Info.plist ConvertToMovie/ConvertToMovie-Info.plist
+s376302841.657162
+e376302841.691898
+r1
+xProcessInfoPlistFile
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Info.plist
+xConvertToMovie/ConvertToMovie-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process ConvertToMovie/ConvertToMovie-Info.plist3387a8f9ec6db641^6074b1f9ec6db641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Info.plist0000000000000000^756"ProcessInfoPlistFile build/Release-iphonesimulator/ConvertToMovie.app/Info.plist ConvertToMovie/ConvertToMovie-Info.plist    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility ConvertToMovie/ConvertToMovie-Info.plist -genpkginfo /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app/Info.plist36"8C7260F6-B5BA-4754-B96C-C2602D11B464-
+
+CProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376302841.705749
+e376302845.814633
+r1
+xProcessPCH
+x/var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.pth
+xConvertToMovie/ConvertToMovie-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ConvertToMovie/ConvertToMovie-Prefix.pch0f45b5f9ec6db641^2a8dd0fdec6db641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch0000000000000000^3918"ProcessPCH /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.pth ConvertToMovie/ConvertToMovie-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-generated-files.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-own-target-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-all-target-headers.hmap -iquote /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/ConvertToMovie-project-headers.hmap -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources/i386 -I/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/ConvertToMovie.build/Release-iphonesimulator/ConvertToMovie.build/DerivedSources -F/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.dia -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/ConvertToMovie/ConvertToMovie-Prefix.pch -o /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/c4/np7tybkn51d0z5689xynxstr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ConvertToMovie-Prefix-eyhclezaukakkshjoqvezfpahadt/ConvertToMovie-Prefix.pch.d36"0F60FDB6-A51A-45E9-8481-6B9FC38823CB-
+
+CTouch /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app
+s376302848.377385
+e376302848.405412
+r1
+xTouch
+x/Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Touch /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app2cb76000ed6db641^30d66700ed6db641^---0#0#0#--445"Touch build/Release-iphonesimulator/ConvertToMovie.app    cd /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/takaaki/Dropbox/MacSync/test/ConvertToMovie/build/Release-iphonesimulator/ConvertToMovie.app36"6A41411A-8A39-4160-BCEB-41FD0D5D9C6B-
+
